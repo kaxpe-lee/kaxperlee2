@@ -1,0 +1,545 @@
+--
+-- File generated with SQLiteStudio v3.3.3 on ju. dic. 16 18:42:18 2021
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: tags
+CREATE TABLE tags (
+    id   INTEGER PRIMARY KEY,
+    name TEXT    NOT NULL
+                 COLLATE NOCASE,
+    UNIQUE (
+        name
+    )
+);
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     1,
+                     'Intriga'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     2,
+                     'Infantil y juvenil'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     3,
+                     'Aventuras'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     4,
+                     'Fantástico'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     5,
+                     'Histórico'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     6,
+                     'Terror'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     7,
+                     'Clásico'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     8,
+                     'Filosofía'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     9,
+                     'Ensayo'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     10,
+                     'Ciencia Ficción'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     11,
+                     'Policíaco'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     12,
+                     'Otros'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     13,
+                     'Drama'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     14,
+                     'Autoayuda'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     15,
+                     'Relato'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     16,
+                     'Erótico'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     17,
+                     'Poesía'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     18,
+                     'Romántico'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     19,
+                     'Humor'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     20,
+                     'Teatro'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     21,
+                     'Interactivo'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     22,
+                     'Esoterismo'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     23,
+                     'Ciencia'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     24,
+                     'Bélico'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     25,
+                     'Biografía'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     26,
+                     'Referencia'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     27,
+                     'Cuentos'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     28,
+                     'Infantil'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     29,
+                     'Recopilación'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     30,
+                     'Novela'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     31,
+                     'Periodismo'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     32,
+                     'Comunicación'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     33,
+                     'Thriller'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     34,
+                     'Juvenil'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     35,
+                     'Novela del Oeste'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     36,
+                     'Religión'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     37,
+                     'Divulgación científica'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     38,
+                     'Novela Negra'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     39,
+                     'Viajes'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     40,
+                     'Memorias'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     41,
+                     'Economía'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     42,
+                     'Política'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     43,
+                     'Misterio'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     44,
+                     'Psicología'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     45,
+                     'Recetas de cocina'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     46,
+                     'Deportes'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     47,
+                     'Historia'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     48,
+                     'Divulgación'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     49,
+                     'Ciencias exactas'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     50,
+                     'Ciencias naturales'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     51,
+                     'Tecnología'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     52,
+                     'Crónica'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     53,
+                     'Ciencias sociales'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     54,
+                     'Policial'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     55,
+                     'Ciencia ficcion'
+                 );
+
+INSERT INTO tags (
+                     id,
+                     name
+                 )
+                 VALUES (
+                     56,
+                     'Ficción'
+                 );
+
+
+-- Index: tags_idx
+CREATE INDEX tags_idx ON tags (
+    name COLLATE NOCASE
+);
+
+
+-- Trigger: fkc_delete_on_tags
+CREATE TRIGGER fkc_delete_on_tags
+        BEFORE DELETE
+            ON tags
+BEGIN
+    SELECT CASE WHEN (
+                         SELECT COUNT(id) 
+                           FROM books_tags_link
+                          WHERE tag = OLD.id
+                     )
+>              0 THEN RAISE(ABORT, "Foreign key violation: tags is still referenced") END;
+END;
+
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
