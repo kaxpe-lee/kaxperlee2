@@ -1,0 +1,25 @@
+
+  ul {
+    list-style: none;
+  }
+  
+  .book-list a {
+    display: inline-block;;
+   
+    padding: 0;
+      margin: 10px 20px;
+      border: solid 10px #fff;
+      -webkit-box-shadow:  0px 0px 5px 0px rgba(255, 255, 255, 0.90);
+      box-shadow:  0px 0px 5px 0px rgba(255, 255, 255, 0.90);
+  }
+  .book-list a:hover {
+     
+      border: solid 10px #d2d2d2;
+      -webkit-box-shadow:  0px 0px 5px 0px rgba(255, 255, 255, 0.90);
+      box-shadow:  0px 0px 5px 0px rgba(255, 255, 255, 0.90);
+  }
+  
+  /* common.css */
+  body {
+    background: #EAEDF1;
+  }
