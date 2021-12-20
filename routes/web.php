@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\EnlaceController;
 use App\Http\Controllers\LibroController;
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\ShowTitle;
 use App\Http\Livewire\ShowTitle2;
@@ -18,7 +19,7 @@ use App\Http\Livewire\ShowTitle2;
 */
 
 Route::get('/', [EnlaceController::class, 'index']);
-
+Route::get('main', [MainController::class, 'main']);
 Route::get('enlaces', [EnlaceController::class, 'index']);
 Route::get('libros', [LibroController::class, 'index'])->name('libros.index');
 Route::get('libros/create', [LibroController::class, 'create'])->name('libros.create');

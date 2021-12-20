@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        
         $enlace = new Enlace();
         $enlace->Nombre = 'Pexel';
         $enlace->Direccion = 'pexels.com/';
